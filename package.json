@@ -1,0 +1,23 @@
+{
+  "name": "ProductAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mssql": "^6.2.3",
+    "nodemon": "^2.0.6",
+    "sqlstring": "^2.3.2",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

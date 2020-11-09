@@ -1,0 +1,42 @@
+****************************************
+
+=> Date : Mon Nov 09 2020 14:29:28 GMT+0530 (India Standard Time)
+=> Request Type : GET
+=> Request Header : {"user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+=> Query : SELECT  UserID FROM  tblProduct where 1=1
+=> Error : RequestError: Invalid column name 'UserID'.
+=> Request Body : {}
+=> Message : An error occurred during Product List
+=> Params : {}
+=> Query Params: {}
+
+****************************************
+
+****************************************
+
+=> Date : Mon Nov 09 2020 14:40:21 GMT+0530 (India Standard Time)
+=> Request Type : PUT
+=> Request Header : {"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"71"}
+=> Query : sp_PUT_Product
+=> Error : RequestError: Procedure or function 'sp_PUT_Product' expects parameter '@ProductID', which was not supplied.
+=> Request Body : {"ProductName":"Product 1 updated","ProductPrice":10}
+=> Message : An error occurred during Product Update
+=> Params : {"ProductID":"1"}
+=> Query Params: {}
+
+****************************************
+
+****************************************
+
+=> Date : Mon Nov 09 2020 14:40:57 GMT+0530 (India Standard Time)
+=> Request Type : PUT
+=> Request Header : {"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"71"}
+=> Query : sp_PUT_Product
+=> Error : TypeError: Cannot read property '0' of undefined
+=> Request Body : {"ProductName":"Product 1 updated","ProductPrice":10}
+=> Message : An error occurred during Product Update
+=> Params : {"ProductID":"1"}
+=> Query Params: {}
+
+****************************************
+
